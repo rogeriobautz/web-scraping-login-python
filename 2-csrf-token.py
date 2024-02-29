@@ -1,8 +1,8 @@
 # Scraping Websites with CSRF Token Authentication for Login
 
-from dotenv import load_dotenv
 from bs4 import BeautifulSoup 
 import requests
+from dotenv import load_dotenv
 import os
 
 load_dotenv()
